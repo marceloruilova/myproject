@@ -1,0 +1,32 @@
+# Maven build output
+target/
+
+# Java compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+
+# IDE - VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Karate reports (generated on each run)
+karate-reports/

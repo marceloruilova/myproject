@@ -6,13 +6,12 @@ function fn() {
   }
   var config = {
     env: env,
-    myVarName: 'someValue'
+    baseUrl: 'https://reqres.in'
   }
   if (env == 'dev') {
-    // customize
-    // e.g. config.foo = 'bar';
+    config.baseUrl = 'https://reqres.in';
   } else if (env == 'e2e') {
-    // customize
+    config.baseUrl = 'https://reqres.in';
   }
   return config;
 }
