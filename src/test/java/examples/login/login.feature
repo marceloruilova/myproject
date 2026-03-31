@@ -4,6 +4,7 @@ Feature: Authentication API - Test Cases TC-01 through TC-06
 
   Background:
     * url baseUrl
+    * header x-api-key = reqresApiKey
 
   # TC-01: Valid credentials return 200 with a non-null, non-empty token.
   Scenario: TC-01 - Successful login with valid credentials
