@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mvn test:*)"
+      "Bash(mvn test:*)",
+      "Bash(find . -not -path ./.git/* -not -path ./.claude/*)",
+      "Bash(grep -v '^\\\\.$')"
     ]
   }
 }
