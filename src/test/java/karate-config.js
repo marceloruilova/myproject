@@ -6,12 +6,12 @@ function fn() {
   }
   var config = {
     env: env,
-    baseUrl: 'https://dummyjson.com'
+    baseUrl: 'https://reqres.in'
   }
   if (env == 'dev') {
-    config.baseUrl = 'https://dummyjson.com';
+    config.baseUrl = 'https://reqres.in';
   } else if (env == 'e2e') {
-    config.baseUrl = 'https://dummyjson.com';
+    config.baseUrl = 'https://reqres.in';
   }
   return config;
 }
